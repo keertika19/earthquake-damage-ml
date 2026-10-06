@@ -1,0 +1,4 @@
+model,train_micro_f1,val_micro_f1,val_macro_f1,fit_seconds,predict_seconds,best_params
+K-Nearest Neighbors,0.672544128933231,0.6456130926114234,0.5732795359359929,0.5,46.4,
+Neural Network (MLP),0.6750335763622409,0.6684062086299188,0.5939283966260084,56.9,0.2,
+Random Forest,0.9867565234075211,0.715604075132864,0.6574016310189816,380.2,2.6,"{'clf__min_samples_leaf': 1, 'clf__n_estimators': 200}"
